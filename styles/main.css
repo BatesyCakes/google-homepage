@@ -1,5 +1,64 @@
-#hplogo {
-    height = "92px";
-    width = "272px";
+body{
+    font-family: arial, sans-serif;
+    background: #fff;
+    color: #222;
 }
 
+
+/* Nav style */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+}
+
+li {
+    display:inline-block;
+}
+
+/** Logo style **/
+
+.logo {
+    display: block;
+    text-align: -webkit-center;
+    padding-top: 109px;
+}
+
+#hplogo {
+    height: 92px;
+    width: 272px;
+}
+
+
+/* search bar style*/
+
+.search {
+    text-align: -webkit-center;
+}
+
+
+/* button style*/
+
+.buttons {
+    text-align: -webkit-center;
+    padding-top: 18px;
+}
+
+
+/* Footer style */
+
+footer {
+    display: inline-block;
+    bottom: 0;
+    position: fixed;
+}
+
+#lfoot {
+    float: left;
+}
+
+#rfoot {
+    float: right;
+}
