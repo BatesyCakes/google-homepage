@@ -7,7 +7,7 @@ body{
 
 /* Nav style */
 
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,7 +15,16 @@ ul {
 }
 
 li {
+    color: #666;
     display:inline-block;
+}
+
+.navbar ul{
+    padding: 0px 30px;
+}
+
+.navbar li{
+    padding-left: 15px;
 }
 
 /** Logo style **/
@@ -50,15 +59,34 @@ li {
 /* Footer style */
 
 footer {
+    height: 41px;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display: inline-block;
     bottom: 0;
-    position: fixed;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 #lfoot {
     float: left;
+    margin-left: -27px;
 }
 
 #rfoot {
     float: right;
+    padding-right: 30px;
+}
+
+#lfoot, #rfoot {
+    color: #666;
+}
+
+footer li {
+    padding-left: 27px;
 }
