@@ -4,6 +4,9 @@ body{
     color: #222;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Nav style */
 
@@ -53,6 +56,10 @@ li {
 .buttons {
     text-align: -webkit-center;
     padding-top: 18px;
+    color: #757575;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1;
 }
 
 
